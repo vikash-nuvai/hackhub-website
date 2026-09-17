@@ -1,4 +1,4 @@
-# 🧠 The 3 Breakthrough Algorithms (ELI10 Edition)
+# 🧠 The 3 Breakthrough Algorithms
 
 > HackHub doesn't just run fast—it is powered by **three world-first algorithms** invented specifically to solve the biggest headaches in competitive hackathons: **unfair judges**, **lonely hackers needing teams**, and **code cheaters**.
 

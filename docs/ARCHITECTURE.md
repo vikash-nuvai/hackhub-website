@@ -1,4 +1,4 @@
-# 🏛️ HackHub Architecture (ELI10 Edition)
+# 🏛️ HackHub Architecture
 
 > **How HackHub Works**: Like a supersonic space rocket, every part is built to do exactly one job at the speed of light—with zero wasted weight.
 

@@ -5,7 +5,7 @@
 
 ---
 
-## 🚀 What is HackHub? (ELI10: Explain Like I'm 10)
+## 🚀 What is HackHub?
 
 Imagine you and your friends go to an arcade, but every time you press a button, the game takes 2 seconds to think because it's talking to 5 different slow computers around the world. That's how modern websites (built with React and bulky databases) work today. They carry tons of heavy backpacks they don't even need.
 
@@ -19,11 +19,11 @@ We built every single piece from scratch:
 
 ---
 
-## 🔮 The 8 Super-Engines (The Cool Names)
+## 🔮 The 8 Super-Engines
 
 Instead of boring names like `hack-db` or `hack-auth`, HackHub is powered by 8 specialized engines:
 
-| Engine | Role | What it Does (ELI10) |
+| Engine | Role | What it Does |
 | :--- | :--- | :--- |
 | 🌐 **KINESIS** | Ultra-Fast Network Reactor | Like a pneumatic vacuum tube that shoots 64-byte binary data packets directly into the CPU with zero traffic jams. |
 | 💎 **OBSIDIAN** | Crash-Proof Storage Engine | An uncrackable digital ledger that writes events to disk instantly so no project or score is ever lost, even if lightning strikes the server. |
@@ -40,7 +40,7 @@ Instead of boring names like `hack-db` or `hack-auth`, HackHub is powered by 8 s
 
 Dive into the simplified, easy-to-read guides:
 
-- 🏛️ [**Architecture Guide (ELI10)**](file:///home/killermachine/Desktop/study/hackathon_website/docs/ARCHITECTURE.md) — How the whole machine works together like a futuristic hypercar.
+- 🏛️ [**Architecture Guide**](file:///home/killermachine/Desktop/study/hackathon_website/docs/ARCHITECTURE.md) — How the whole machine works together like a futuristic hypercar.
 - 🧠 [**The 3 Breakthrough Algorithms**](file:///home/killermachine/Desktop/study/hackathon_website/docs/ALGORITHMS.md) — How **PRISM**, **HYPERION**, and **CHRONOS** work with fun diagrams and simple analogies.
 - 👥 [**Team Playbook & Research Roadmap**](file:///home/killermachine/Desktop/study/hackathon_website/docs/TEAM_PLAYBOOK.md) — The 8-person crew mission, who builds what, and how we publish the paper.
 
