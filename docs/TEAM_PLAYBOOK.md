@@ -1,76 +1,80 @@
 # 👥 Team Playbook & Research Roadmap
 
-> **The 8-Person Crew**: Building a full-stack platform and publishing a world-class academic research paper requires a tight, elite team where every person captains their own station.
+> **The 8-Person Engineering & Research Crew**: Designing a new full-stack web paradigm and publishing an academic paper requires an ownership structure where each engineer captains one critical layer of the stack.
 
 ---
 
-## 🎯 Crew Stations & Ownership
+## 🎯 The Full-Stack Station Ownership
 
 ```
-                        [ CHIEF ARCHITECT ]
-                         (Team Captain / Lead)
-                                  │
-         ┌────────────────────────┼────────────────────────┐
-         │                        │                        │
-  [ CORE ENGINES ]        [ NOVEL ALGORITHMS ]     [ USER & EVALUATION ]
-  ├── 🌐 KINESIS (Net)    ├── 🌈 PRISM (Fairness)  ├── 🚀 PULSE (Wasm UI)
-  ├── 💎 OBSIDIAN (DB)    ├── ⚡ HYPERION (Match)  ├── 🏎️ BENCHMARK (Tests)
-  └── 🛡️ PHANTOM (Auth)   └── ⏳ CHRONOS (TimeLock)└── 🎨 EXPERIENCE (HUD)
+                           [ CHIEF ARCHITECT ]
+                        (System Blueprint & Lead)
+                                    │
+    ┌───────────────────────┬───────┴───────────────┬───────────────────────┐
+    │                       │                       │                       │
+[ CLIENT TIER ]     [ PROTOCOL & NET ]      [ STORAGE & DATA ]      [ AUTH & SECURITY ]
+🚀 PULSE            ⚡ ZERO-WIRE / 🌐 KINESIS 💎 OBSIDIAN / 🏆 APEX   🛡️ PHANTOM
+(Frontend Runtime)  (Transport & Reactor)   (Storage Engine & SIMD) (Passkeys & Identity)
+    │                       │                       │                       │
+    └───────────────────────┼───────────────────────┴───────────────────────┘
+                            │
+               [ BENCHMARKS & EVALUATION ]
+               (ZERO Stack vs MERN / Next.js)
 ```
 
 ---
 
 ## 📋 The 8 Roles Breakdown
 
-### 🧑‍🚀 Member 1: Chief Architect & Research Lead
-- **Cool Title**: *Commander of the Stack*
-- **Mission**: Make sure all the pieces click together like LEGO bricks. Writes the overall blueprint, orchestrates the Rust workspace, and writes the *Introduction* and *Big Picture* sections of our research paper.
-- **Paper Contribution**: Abstract, Introduction, System Architecture Overview, Conclusion.
+### 🧑‍🚀 Member 1: Chief Systems Architect & Lead Author
+- **Station**: *Stack Orchestration & Core Manifest*
+- **Mission**: Maintains the cross-layer architecture, workspace build system, and continuous integration. Leads the writing of the research paper.
+- **Paper Contribution**: *Abstract, Introduction, Architecture Overview, and Discussion*.
 
-### 🧠 Member 2: The Fair-Judging Brain
-- **Engine**: **`PRISM`**
-- **Mission**: Implement the math that eliminates judge bias and catches cheating judge circles. Writes the matrix solver that makes sure the best hackathon projects win, no matter if judges are grumpy or generous.
-- **Paper Contribution**: *Section 4.1: SpectralFair Graph Laplacian Eigensolver & Collusion Detection*.
+### 🚀 Member 2: Client Runtime Specialist (`PULSE`)
+- **Station**: *Frontend Engine (Replaces React / Next.js)*
+- **Mission**: Builds the fine-grained direct-memory reactive engine without a Virtual DOM. Ensures instant updates with $< 15\,\text{KB}$ bundle size and 0 ms garbage collection pauses.
+- **Paper Contribution**: *Section 3: Fine-Grained Reactive Runtimes vs Virtual DOM Reconciliation*.
 
-### ⚡ Member 3: The Matchmaking Sorcerer
-- **Engine**: **`HYPERION`**
-- **Mission**: Build the 8,192-bit digital barcode matcher using hardware SIMD popcount instructions. Make sure thousands of lonely hackers can find their dream team in 15 nanoseconds!
-- **Paper Contribution**: *Section 4.2: Hyperdimensional Computing for Ultra-Fast Team Synthesis*.
+### 🌐 Member 3: High-Performance Network Engineer (`KINESIS`)
+- **Station**: *Network Reactor (Replaces Express / Node.js)*
+- **Mission**: Builds the multi-threaded non-blocking event loop using modern kernel completion rings (`io_uring`/`epoll`) to handle hundreds of thousands of concurrent connections.
+- **Paper Contribution**: *Section 4: Kernel Event Ring Reactors vs Node.js Event Loop Contention*.
 
-### ⏳ Member 4: The Time-Lock Guardian
-- **Engine**: **`CHRONOS`** & **`PHANTOM`**
-- **Mission**: Build the anti-cheat time machine that connects code snapshots to secret lottery beacons, plus the fingerprint/face login system so nobody ever needs a password again.
-- **Paper Contribution**: *Section 5: Verifiable Temporal Commitment DAGs & Passwordless Hardware Attestation*.
+### 💎 Member 4: Storage Engine Specialist (`OBSIDIAN`)
+- **Station**: *Database & Persistence (Replaces MongoDB / PostgreSQL)*
+- **Mission**: Implements the append-only Write-Ahead Log (`WAL`) with `O_DIRECT`, lock-free SkipList MemTable, and memory-mapped SSTables with Bloom filters.
+- **Paper Contribution**: *Section 5: Cache-Line Conscious Append-Only Storage for Modern Web Backends*.
 
-### 💎 Member 5: The Master of the Vault
-- **Engine**: **`OBSIDIAN`**
-- **Mission**: Build the crash-proof disk storage and write-ahead log (`WAL`). Make sure the database can take 100,000 writes a second without breaking a sweat, even if the power gets cut.
-- **Paper Contribution**: *Section 3.2: Cache-Line Conscious Append-Only Log Storage for Live Event Telemetry*.
+### ⚡ Member 5: Protocol & Serialization Engineer (`ZERO-WIRE`)
+- **Station**: *Wire Layer (Replaces REST / GraphQL / JSON)*
+- **Mission**: Designs the 64-byte cache-line aligned binary frame layout and zero-copy deserialization pipeline. Eliminates text parsing penalties.
+- **Paper Contribution**: *Section 6: Zero-Copy Binary Framing vs Textual JSON Serialization*.
 
-### 🌐 Member 6: The Speed-of-Light Networker
-- **Engine**: **`KINESIS`**
-- **Mission**: Build the direct kernel networking reactor (`io_uring`/`epoll`) and the 64-byte `HackPack` binary wire protocol. Say goodbye to heavy JSON forever!
-- **Paper Contribution**: *Section 3.1: Zero-Copy Binary Wire Protocols vs JSON Transport Overhead*.
+### 🛡️ Member 6: Cryptographic Identity Specialist (`PHANTOM`)
+- **Station**: *Auth Layer (Replaces Passwords, Cookies & JWT)*
+- **Mission**: Implements the passwordless WebAuthn (Passkey) challenge-response flow and Ed25519 cryptographic capability token ring.
+- **Paper Contribution**: *Section 7: Hardware-Attested Passwordless Identity in High-Throughput Stacks*.
 
-### 🚀 Member 7: The Micro-Frontend Specialist
-- **Engine**: **`PULSE`**
-- **Mission**: Build the 12 KB WebAssembly browser engine that updates numbers and scores directly on screen without needing React or virtual DOM diffing.
-- **Paper Contribution**: *Section 3.3: Zero-GC WebAssembly Client Runtimes with Direct DOM Memory Slots*.
+### 🏆 Member 7: SIMD Acceleration & Domain Algorithmist (`APEX` + `PRISM` / `HYPERION`)
+- **Station**: *Hardware Acceleration & Novel Logic*
+- **Mission**: Implements AVX-512 / Neon vector operations for instant aggregations, alongside the PRISM fair-judging eigensolver and HYPERION hyperdimensional matcher.
+- **Paper Contribution**: *Section 8: Hardware Vector Acceleration & Specialized Consensus in Web Systems*.
 
-### 🏎️ Member 8: The Speed Tester & Experience Designer
-- **Engine**: **`APEX`** & **`BENCHMARK HARNESS`**
-- **Mission**: Build the live hacker dashboard HUD, and then build the "hammer" that fires 150,000 requests per second at our server to prove to the world that HackHub destroys Next.js and Postgres in latency and throughput!
-- **Paper Contribution**: *Section 6: Empirical Evaluation, Core Web Vitals, and Stress Benchmarking*.
+### 🏎️ Member 8: Empirical Evaluator & Flagship UX
+- **Station**: *Comparative Benchmarking & HackHub Application*
+- **Mission**: Builds the automated stress-test suite comparing the ZERO Stack directly against an identical MERN / Next.js baseline. Designs the HackHub flagship user experience.
+- **Paper Contribution**: *Section 9: Empirical Performance Evaluation (Throughput, Latency, Memory, CWV)*.
 
 ---
 
-## 🗓️ 6-Week Execution Plan
+## 🗓️ 6-Week Execution Roadmap
 
-| Week | Milestone | What Gets Built |
+| Week | Milestone | Deliverables |
 | :--- | :--- | :--- |
-| **Week 1** | **Foundations & Algorithms** | Write the math for **PRISM**, **HYPERION**, and **CHRONOS** in Rust. Run unit tests to prove they work perfectly. |
-| **Week 2** | **The Fast Engines** | Build **OBSIDIAN** (Storage) and **KINESIS** (Network). Sockets can now talk 64-byte binary packets. |
-| **Week 3** | **Security & Frontend Core** | Wire up **PHANTOM** (Passkeys) and compile **PULSE** (WebAssembly client). Browser talks directly to the server. |
-| **Week 4** | **The HackHub Experience** | Connect the Hacker HUD, Team Matcher UI, Submission Portal, and Live Leaderboard. |
-| **Week 5** | **The Great Showdown (Benchmarks)** | Run side-by-side stress tests: HackHub vs Next.js + PostgreSQL. Measure the speed difference and generate colorful graphs! |
-| **Week 6** | **Paper Submission** | Compile all benchmark graphs and mathematical proofs into our LaTeX research paper and submit to the conference! |
+| **Week 1** | **Core Primitives & Wire** | Finalize the 64-byte `ZERO-WIRE` format, build the shared memory structs, and establish the Rust monorepo crates. |
+| **Week 2** | **Storage & Network Engines** | Build `OBSIDIAN` (WAL + MemTable) and `KINESIS` (`io_uring`/`epoll` reactor). Achieve initial loopback throughput $> 100\text{k RPS}$. |
+| **Week 3** | **Client Runtime & Security** | Implement `PULSE` (direct-DOM reactive engine) and `PHANTOM` (WebAuthn passkey handshake). |
+| **Week 4** | **Flagship HackHub Application** | Assemble the full HackHub platform using the ZERO Stack: user registration, team matching, live submissions, and real-time scoreboards. |
+| **Week 5** | **The Empirical Benchmark Showdown** | Execute automated load tests (wrk/k6/Locust) comparing HackHub (ZERO Stack) against an identical Next.js + PostgreSQL baseline. Generate latency and memory distribution plots. |
+| **Week 6** | **Paper Finalization & Submission** | Compile benchmark data, system diagrams, and algorithmic formulations into the LaTeX research paper draft for conference submission. |
